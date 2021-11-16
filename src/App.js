@@ -2,7 +2,7 @@ import "./App.css";
 import useRandomJoke from "./useRandomJoke";
 
 function App() {
-  const joke = useRandomJoke();
+  const joke = useRandomJoke("Ehfaz", "Rezwan");
 
   return (
     <div className="App">
